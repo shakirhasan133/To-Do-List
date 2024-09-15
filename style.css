@@ -10,21 +10,20 @@ body{
     background: #16423C;
 }
 .container{
-    min-width: 100vh;
-    padding: 10px;
+    width: 95%;
     display: flex;
     justify-content: center;
     position: relative;
     border-radius: 10px;
+    margin: 0 auto;
     
 }
 .toDoApp{
     position: absolute;
-    top: 5%;
-    width: 100%;
-    max-width: 540px;
+    width: 98%;
+    max-width: 500px;
     background: #fff;
-    padding: 20px;
+    padding: 1%;
     margin: 100px auto;
     border-radius: 20px;
 }
@@ -103,12 +102,17 @@ ul li span:hover{
     background: #d8d8d8;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:570px){
     .toDoApp{
-        max-width: 90%;
+        width: 100%;
         padding: 5px;
     }
     .container{
         padding: 3px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    body{
+        width: 98%;
     }
 }
